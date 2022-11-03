@@ -13,15 +13,15 @@
 # Terminal usage command lines after downloading it
 - To prepare the environment (mac - linux or windows)
 
->> sudo npm install | npm install
+> sudo npm install | npm install
 
 - To run development mode, to compile down the ./dist (only)
 
->> sudo npm run dev | npm run dev
+> sudo npm run dev | npm run dev
 
 - To serve dist or project to a default web browser 
 
->> sudo npm run serve | npm run serve
+> sudo npm run serve | npm run serve
 
 = (Serve command works on Production build and Development build) 
 PORT=8080 (127.0.0.1:8080)
