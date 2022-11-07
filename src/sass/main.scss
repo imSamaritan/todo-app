@@ -83,3 +83,57 @@ header.todo-header-input {
 }
 
 /** Todo Tasks Navigation --END **/
+
+/** List Of Tasks --START **/
+
+ul.tasks {
+	margin-bottom: $m-25;
+	list-style-type: none;
+}
+
+ul.tasks .task-item {
+	position: relative;
+	padding-bottom: $p-15;
+}
+
+ul .task {
+	cursor: pointer;
+	font-size: 18px;
+}
+
+ul .task.complete {
+	text-decoration: line-through;
+}
+
+.task-more {
+	float: right;
+	clear: both;
+	padding-right: $p-10;
+	cursor: pointer;
+}
+
+.pop-up-more {
+	position: absolute;
+	width: 80px;
+	padding: $p-10 $p-5;
+	border: 1px solid;
+	border-radius: $br-7;
+	background-color: $ghost-white;
+	box-shadow: 0 2px 3px $opacity-black-3;
+	top: 0;
+	left: 75%;
+	z-index: 100;
+	// transform: scale(0);
+	transition: transform .3s ease-in-out;
+}
+
+.pop-up-more p {
+	margin: $m-5 0;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.active {
+	transform: scale(1);
+}
+/** List Of Tasks --END **/
