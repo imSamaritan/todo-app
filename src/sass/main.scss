@@ -43,12 +43,14 @@ header.todo-header-input {
 	padding: $p-5 0;
 	font-size: 20px;
 	border: none;
-	border-radius: $br-4;
+	background-color: $lighter-grey;
+	border-bottom: 1px solid $dark-4;
 }
 
 .input-field input:focus {
 	border: none;
 	outline: none;
+	border-bottom: 2px solid $dark-4;
 }
 
 .input-field button {
