@@ -9,10 +9,14 @@ body {
 	background-color: $light-grey;
 }
 
+/** Responsive container --START **/
 .container {
 	width: 80%;
 	margin: 0 auto;
 }
+/** Responsive container --END **/
+
+/** Todo Container Card --START **/
 
 .container .todo-card {
 	width: $w-50;
@@ -23,6 +27,9 @@ body {
 	border-radius: $br-7;
 	box-shadow: 0 1px 2px $opacity-black-3;
 }
+/** Todo Container Card --END **/
+
+/** Header with input --START **/
 
 header.todo-header-input {
 	width: $w-100;
@@ -54,3 +61,25 @@ header.todo-header-input {
 	font-size: 35px;
 	cursor: pointer;
 }
+
+/** Header with input --END **/
+
+/** Todo Tasks Navigation --START **/
+.todo-navigation {	
+	display: flex;
+	font-size: 20px;	
+	text-align: center;
+	margin-bottom: $m-50;
+}
+
+.todo-navigation span {
+	cursor: pointer;
+	width: calc($w-100 / 3);
+	color: $dark-4;
+}
+
+.todo-navigation span.active {
+	color: $dark-0;
+}
+
+/** Todo Tasks Navigation --END **/
