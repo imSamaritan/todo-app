@@ -4,4 +4,10 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
+	font-size: $font-size;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
