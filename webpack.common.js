@@ -31,7 +31,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'Webpack - project setup',
+			title: 'Todo - app',
 			filename: 'index.html',
 			template: path.resolve(__dirname, 'src/views/index.html')
 		})
