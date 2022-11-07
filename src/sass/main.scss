@@ -11,3 +11,13 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+
+.container .todo-card {
+	width: $w-60;
+	box-sizing: border-box;
+	margin: 100px auto 20px auto;
+	padding: $p-10;
+	background-color: $lighter-grey;
+	border-radius: $br-7;
+	box-shadow: 0 1px 2px $opacity-black-3;
+}
